@@ -38,5 +38,5 @@ jobs:
 
       - name: Inspect Docker image
         run: |
-          docker run -it gavyasree/gavya:latest /bin/bash -c "ls /springboot-images-new.jar"
-          # Add additional commands here to inspect the JAR file within the container
+              docker run -it gavyasree/gavya:latest /bin/bash -c "ls /springboot-images-new.jar"
+         
