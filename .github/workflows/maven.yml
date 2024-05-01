@@ -39,4 +39,4 @@ jobs:
       - name: Inspect Docker image
         run: |
           docker run -it gavyasree/gavya:latest /bin/bash
-          # Add commands here to navigate and inspect the JAR file within the container
+          
