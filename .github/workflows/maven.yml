@@ -33,10 +33,4 @@ jobs:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
-      - name: Pull Docker image
-        run: docker pull gavyasree/gavya:latest
-
-      - name: Inspect Docker image
-        run: |
-          docker run -it gavyasree/gavya:latest /bin/bash
           
